@@ -48,7 +48,7 @@ public class Application {
 
 	/*
 	 * ZK servlets
-	 *//*
+	 */
 	@Bean
 	public ServletRegistrationBean dHtmlLayoutServlet() {
 		Map<String, String> params = new HashMap<String, String>();
@@ -114,6 +114,6 @@ public class Application {
 		System.out.println("Registering hazelcast listener");
 		return new ServletListenerRegistrationBean(new SessionListener());
 	}
-*/
+
 
 }
